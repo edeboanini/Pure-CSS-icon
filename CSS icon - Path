@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Path</title>
+
+    <style>
+        body {
+            background-color: #E61717;
+        }
+
+        #contorno1 {
+            height: 60px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 30px;
+            margin-left: 400px;
+            margin-top: 200px;
+            -webkit-transform: rotate(47deg);
+            z-index: 5;
+            position: relative;
+            background-color: #12B812;
+            box-shadow: 1px 1px 10px 1px #000000;
+        }
+
+        #cotone1 {
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 12px;
+            margin-left: 451px;
+            margin-top: -50px;
+            -webkit-transform: rotate(47deg);
+            background-color: #68ED68;
+            z-index: 6;
+            position: relative;
+        }
+
+        #contorno2 {
+            height: 60px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 30px;
+            margin-left: 400px;
+            margin-top: -55px;
+            -webkit-transform: rotate(-40deg);
+            position: static;
+            z-index: -1;
+            background-color: #12B812;
+            box-shadow: 0px 2px 9px 1px #000000;
+        }
+
+        #cotone2 {
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 12px;
+            margin-left: 448px;
+            margin-top: -50px;
+            -webkit-transform: rotate(-40deg);
+            background-color: #68ED68;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contorno1"></div>
+    <div id="cotone1"></div>
+    <div id="contorno2"></div>
+    <div id="cotone2"></div>
+</body>
+
+</html>
