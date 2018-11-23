@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moon</title>
+    <style>
+        body {
+            background-color: rgb(4, 18, 78);
+        }
+
+        #contorno {
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin-left: 400px;
+            margin-top: 150px;
+            background-color: white;
+            box-shadow: 0px 0px 60px 2px white;
+        }
+
+        #punto1 {
+            height: 40px;
+            width: 40px;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin-left: 445px;
+            margin-top: -145px;
+            background-color: rgba(192, 192, 192, 0.5);
+            box-shadow: 0px 0px 0px 2.5px rgba(192, 192, 192, 0.4);
+        }
+
+        #punto2 {
+            height: 25px;
+            width: 25px;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin-left: 510px;
+            margin-top: -65px;
+            background-color: rgba(192, 192, 192, 0.5);
+            box-shadow: 0px 0px 0px 2.5px rgba(192, 192, 192, 0.4);
+        }
+
+        #punto3 {
+            height: 35px;
+            width: 35px;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin-left: 475px;
+            margin-top: 45px;
+            background-color: rgba(192, 192, 192, 0.5);
+            box-shadow: 0px 0px 0px 2.5px rgba(192, 192, 192, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contorno"></div>
+    <div id="punto1"></div>
+    <div id="punto2"></div>
+    <div id="punto3"></div>
+</body>
+
+</html>
