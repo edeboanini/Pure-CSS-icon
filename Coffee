@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disegno</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+</head>
+
+<body>
+    <div id="tazzadicaffe">
+        <div id="piatto"></div>
+        <div id="tazza"></div>
+        <div id="tazza2"></div>
+        <div id="maniglia"></div>
+        <div id="caffe"></div>
+        <div id="macchia"></div>
+    </div>
+
+    <h1 id="cup">Do you want a cup ?</h1>
+    <button id="yes">Yes</button>
+    <button id="no">No</button>
+
+    <script type="text/javascript">
+        document.getElementById("yes").onclick = function () {
+            document.getElementById("cup").innerHTML = "Great!";
+        }
+
+        document.getElementById("no").onclick = function() {
+            document.getElementById("cup").innerHTML = "Mhm.. Really?"
+        }
+    </script>
+
+</body>
+
+</html>
+
+---------------
+------------
+---------------
+CSS FILE
+---------------
+------------
+body {
+    background-color: #363636ab;
+
+}
+
+#piatto {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 2px 10px 4px #000000;
+}
+
+#tazza {
+    height: 160px;
+    width: 160px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 570px;
+    margin-top: -230px;
+    border: 1px solid white;
+    box-shadow: 5px 2px 10px 2px #000000;
+}
+
+#tazza2 {
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-top: -153px;
+    border: 1px solid black;
+}
+
+#maniglia {
+    height: 30px;
+    width: 40px;
+    background-color: black;
+    border-radius: 20%;
+    margin-left: 539px;
+    margin-top: -81px;
+}
+
+#caffe {
+    height: 140px;
+    width: 140px;
+    background-color: #685044;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-top: -90px;
+    border: 1px solid black;
+}
+
+#macchia {
+    height: 15px;
+    width: 50px;
+    background-color: white;
+    border-radius: 60%;
+    margin-left: 645px;
+    margin-top: -128px;
+    -webkit-transform: rotate(20deg);
+    box-shadow: 1px 1px 5px 2px #3b1f04;
+}
+
+h1 {
+    font-family: 'Ranga', cursive;
+    margin-left: 505px;
+    margin-top: 215px;
+    font-size: 55px;
+}
+
+#yes {
+    margin-left: 550px;
+    font-size: 35px;
+    font-family: 'Ranga', cursive;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 5px 2px 10px 1px #000000;
+}
+
+#no {
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Ranga', cursive;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 5px 2px 10px 1px #000000;
+}
